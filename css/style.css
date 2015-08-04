@@ -537,12 +537,12 @@ a {
 
 button {
   /*margin: 0 auto; didn't work*/
-  margin-left: 24rem;
-  background-color: #f15a29;
   width: 9.688rem;
-  display: margin: 0 auto;
+  margin: 0 auto;
+  background-color: #f15a29;
+   
+}
 
-} 
 button:hover {
   background-color: #d9400e;
 }
