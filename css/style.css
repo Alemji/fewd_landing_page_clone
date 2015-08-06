@@ -447,12 +447,13 @@ div {
 /*Navigation Section*/
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index:9999;
 }
 
 
 .top-navigation > .content {
-  box-sizing: border-box;
-  /*this doesn't do anything*/
   width: 60rem;
   height: 4.375rem;
   margin: 0 auto;
@@ -498,24 +499,28 @@ a {
 } /*this didn't do anything?*/
 
 .introduction {
-  background-image: url('http://i963.photobucket.com/albums/ae111/Alemji1/karmapic_zpsxxennugn.jpg');
+  background-image: url('../images/karmapic.jpg');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 46rem;
   background-position: 0 bottom;
 }
- 
-.introduction > .content > h1, h3 {
-  color: white;
+ .introduction > .content {
   text-align: center;
 
+ }
+
+.introduction > .content > h3 {
+  color: white;
+  
  }
 
 .introduction > .content > h1{
   font-size: 3.125rem;
   font-weight: 300;
-  margin-top: 10rem;
+  margin-top: 17.5rem;
+  color: white;
 
 }
  
@@ -536,7 +541,6 @@ a {
 }
 
 button {
-  /*margin: 0 auto; didn't work*/
   width: 9.688rem;
   margin: 0 auto;
   background-color: #f15a29;
@@ -547,13 +551,40 @@ button:hover {
   background-color: #d9400e;
 }
 
+.cases {
+  background-color: white;
+  padding: 1rem;
+}
+
+.cases > .content {
+  width: 60rem;
+  height: 4.375rem;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-top: 7.875rem;
+  }
+
+.cases > .content > h2 {
+  color: #1d1e21;
+  font-size:2.75rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*why are my boxes in the wrong order?*/
+
+.cases > .content > .devices {
+  float: right;
+  display: inline-block;
+  width: 33.3333333%;
+  text-align: center;
+  background-color: white;
+
+  }
 
 
 
-/* Font styles */
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px:
-    color: #838994:
-    letter-spacing: 0.03em;
-    -webkit-font-smoothing: antialiased;}
+
+
+
 
