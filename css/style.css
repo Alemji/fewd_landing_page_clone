@@ -434,15 +434,14 @@ th {
 
 /* section guides*/
 body {
-  background-color: Lightgray;
+  background-color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 16px:
   letter-spacing: 0.03em;
   -webkit-font-smoothing: antialiased;
 }
-div {
-  border: 1px solid Chocolate;
-}
+
+
 
 /*Navigation Section*/
 .top-navigation {
@@ -552,13 +551,12 @@ button:hover {
 }
 
 .cases {
-  background-color: white;
-  padding: 1rem;
+  padding-bottom: 5rem;
 }
 
 .cases > .content {
   width: 60rem;
-  height: 4.375rem;
+  height: 5.375rem;
   margin: 0 auto;
   padding: 0 15px;
   margin-top: 7.875rem;
@@ -578,13 +576,65 @@ button:hover {
   display: inline-block;
   width: 33.3333333%;
   text-align: center;
-  background-color: white;
-
+  
   }
 
 
+.cases > .content > .devices .caption > h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin:2.5rem opx 1.875rem;
+
+}
+
+/*how do I use font awsome?*/
+.social {
+  
+  text-align: center;
+  border-top: solid #eaebec 1px;
+  width: 60rem;
+  height: 5.375rem;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-top: 15rem;
+ }
+
+.social > h5 {
+  font-size: 1rem;
+  font-weight: 100;
+  border:; solid black 1rem;
+  
+}
 
 
+/*is there an easier way to center things in a round border?*/
+.social > .icons > li {
+  border-radius: 1.25rem;
+  border: solid 1px #eaebec;
+  width:2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  line-height: 1rem;
+  padding:.5rem;
 
+}
 
+.social > .icons {
+  padding-left: 0;
+}
 
+.social h6 {
+  font-style: normal;
+  font-weight: 100;
+}
+
+.social .twitter {
+  color: #4099ff;
+}
+.social .facebook {
+  color:#3b5898;
+  }
+
+.social .instagram {
+  color:#517fa4;
+}
